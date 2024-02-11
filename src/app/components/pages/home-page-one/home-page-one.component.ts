@@ -11,13 +11,15 @@ import { CategoriesStyleOneComponent } from '../../common/categories-style-one/c
 import { HomeoneAboutComponent } from './homeone-about/homeone-about.component';
 import { HomeoneMainBannerComponent } from './homeone-main-banner/homeone-main-banner.component';
 import { RouterLink } from '@angular/router';
+import { LanguageCategoryComponent } from "../../common/language-category/language-category.component";
+import { WhyChooseUsComponent } from "../../common/why-choose-us/why-choose-us.component";
 
 @Component({
-  selector: 'app-home-page-one',
-  standalone: true,
-  imports: [HeaderStyleOneComponent, BlogComponent, FeedbackStyleOneComponent, BecomeInstructorPartnerComponent, InstructorsStyleOneComponent, PartnerStyleOneComponent, HomeoneCoursesComponent, FunfactsComponent, CategoriesStyleOneComponent, HomeoneAboutComponent, HomeoneMainBannerComponent, RouterLink],
-  templateUrl: './home-page-one.component.html',
-  styleUrls: ['./home-page-one.component.scss']
+    selector: 'app-home-page-one',
+    standalone: true,
+    templateUrl: './home-page-one.component.html',
+    styleUrls: ['./home-page-one.component.scss'],
+    imports: [HeaderStyleOneComponent, BlogComponent, FeedbackStyleOneComponent, BecomeInstructorPartnerComponent, InstructorsStyleOneComponent, PartnerStyleOneComponent, HomeoneCoursesComponent, FunfactsComponent, CategoriesStyleOneComponent, HomeoneAboutComponent, HomeoneMainBannerComponent, RouterLink, LanguageCategoryComponent, WhyChooseUsComponent]
 })
 export class HomePageOneComponent implements OnInit {
 

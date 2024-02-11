@@ -3,13 +3,14 @@ import { ThemeCustomizerService } from '../../common/theme-customizer/theme-cust
 import { HeaderStyleTwoComponent } from '../../common/header-style-two/header-style-two.component';
 import { BecomeInstructorPartnerComponent } from '../../common/become-instructor-partner/become-instructor-partner.component';
 import { RouterLink } from '@angular/router';
+import { HeaderStyleOneComponent } from "../../common/header-style-one/header-style-one.component";
 
 @Component({
     selector: 'app-instructors-page-one',
     standalone: true,
-    imports: [HeaderStyleTwoComponent, BecomeInstructorPartnerComponent, RouterLink],
     templateUrl: './instructors-page-one.component.html',
-    styleUrls: ['./instructors-page-one.component.scss']
+    styleUrls: ['./instructors-page-one.component.scss'],
+    imports: [HeaderStyleTwoComponent, BecomeInstructorPartnerComponent, RouterLink, HeaderStyleOneComponent]
 })
 export class InstructorsPageOneComponent implements OnInit {
 

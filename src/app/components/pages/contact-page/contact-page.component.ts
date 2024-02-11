@@ -4,13 +4,14 @@ import { HeaderStyleTwoComponent } from '../../common/header-style-two/header-st
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
 import { NgIf } from '@angular/common';
+import { HeaderStyleOneComponent } from "../../common/header-style-one/header-style-one.component";
 
 @Component({
     selector: 'app-contact-page',
     standalone: true,
-    imports: [HeaderStyleTwoComponent, ReactiveFormsModule, FormsModule, RouterLink, NgIf],
     templateUrl: './contact-page.component.html',
-    styleUrls: ['./contact-page.component.scss']
+    styleUrls: ['./contact-page.component.scss'],
+    imports: [HeaderStyleTwoComponent, ReactiveFormsModule, FormsModule, RouterLink, NgIf, HeaderStyleOneComponent]
 })
 export class ContactPageComponent implements OnInit {
 

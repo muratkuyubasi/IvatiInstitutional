@@ -64,7 +64,14 @@ import { CoursesGstwcThreePageComponent } from './components/pages/courses-gstwc
 import { CoursesGstwcTwoPageComponent } from './components/pages/courses-gstwc-two-page/courses-gstwc-two-page.component';
 
 export const routes: Routes = [
+
     {path: '', component: HomePageOneComponent},
+    {path: 'about', component: AboutPageOneComponent},
+    {path: 'unser-team', component: InstructorsPageOneComponent},
+    {path: 'contact', component: ContactPageComponent},
+
+
+
     {path: 'index-2', component: HomePageTwoComponent},
     {path: 'index-3', component: HomePageThreeComponent},
     {path: 'index-4', component: HomePageFourComponent},
@@ -78,9 +85,7 @@ export const routes: Routes = [
     {path: 'index-12', component: HomePageTwelveComponent},
     {path: 'index-13', component: HomePageThirteenComponent},
     {path: 'index-14', component: HomePageFourteenComponent},
-    {path: 'about-style-1', component: AboutPageOneComponent},
     {path: 'about-style-2', component: AboutPageTwoComponent},
-    {path: 'instructor-1', component: InstructorsPageOneComponent},
     {path: 'instructor-2', component: InstructorsPageTwoComponent},
     {path: 'instructor-3', component: InstructorsPageThreeComponent},
     {path: 'single-instructor', component: InstructorsDetailsPageComponent},
@@ -125,7 +130,6 @@ export const routes: Routes = [
     {path: 'single-products', component: ProductsDetailsPageComponent},
     {path: 'cart', component: CartPageComponent},
     {path: 'checkout', component: CheckoutPageComponent},
-    {path: 'contact', component: ContactPageComponent},
     // Here add new pages component
     
     {path: '**', component: ErrorPageComponent} // This line will remain down from the whole pages component list

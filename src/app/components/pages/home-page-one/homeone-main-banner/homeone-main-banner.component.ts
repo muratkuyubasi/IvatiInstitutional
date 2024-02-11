@@ -41,4 +41,19 @@ export class HomeoneMainBannerComponent implements OnInit {
 		]
     }
 
+    gymHomeSlides: OwlOptions = {
+        autoplayHoverPause: true,
+        animateOut: 'fadeOut',
+        animateIn: 'fadeIn',
+        autoHeight: true,
+        autoplay: true,
+        dots: false,
+        loop: true,
+        nav: true,
+        items: 1,
+        navText: [
+            "<i class='flaticon-arrows'></i>",
+            "<i class='flaticon-right-arrow'></i>"
+        ]
+    }
 }
