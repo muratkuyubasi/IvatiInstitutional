@@ -2,13 +2,14 @@ import { Component, OnInit } from '@angular/core';
 import { ThemeCustomizerService } from '../../common/theme-customizer/theme-customizer.service';
 import { HeaderStyleTwoComponent } from '../../common/header-style-two/header-style-two.component';
 import { RouterLink } from '@angular/router';
+import { HeaderStyleFiveComponent } from "../../common/header-style-five/header-style-five.component";
 
 @Component({
     selector: 'app-courses-details-page',
     standalone: true,
-    imports: [HeaderStyleTwoComponent, RouterLink],
     templateUrl: './courses-details-page.component.html',
-    styleUrls: ['./courses-details-page.component.scss']
+    styleUrls: ['./courses-details-page.component.scss'],
+    imports: [HeaderStyleTwoComponent, RouterLink, HeaderStyleFiveComponent]
 })
 export class CoursesDetailsPageComponent implements OnInit {
 

@@ -59,10 +59,11 @@
         height: 73.5%;
         position: absolute;
         background: {
-            image: url(../../../../../assets/img/health-coaching/bg-image.jpg);
+            // image: url(../../../../../assets/img/health-coaching/bg-image.jpg);
             position: center center;
             repeat: no-repeat;
             size: cover;
+            color: #1c362d
         };
     }
 }
@@ -111,7 +112,7 @@
         width: 110px;
         height: 110px;
         line-height: 110px;
-        background-color: var(--whiteColor);
+        // background-color: var(--whiteColor);
         font-size: 65px;
         color: var(--mainColor2);
         transition: var(--transition);
@@ -137,7 +138,7 @@
     }
     .link-btn {
         display: inline-block;
-        color: var(--mainColor);
+        color: #c6a62f;
         font-weight: 600;
         margin-top: 5px;
     }
@@ -147,7 +148,7 @@
 
         .icon {
             color: var(--whiteColor);
-            background-color: var(--mainColor2);
+            // background-color: var(--mainColor2);
         }
         h3 {
             color: var(--blackColor);

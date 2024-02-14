@@ -7,7 +7,7 @@
     padding: 40px 20px;
     transition: var(--transition);
     background: {
-        color: var(--mainColor);
+        color: #1c362d;
         position: center center;
         size: cover;
         repeat: no-repeat;
@@ -16,7 +16,7 @@
         width: 100px;
         height: 100px;
         position: relative;
-        background: rgba(255, 255, 255, 0.2);
+        // background: rgba(255, 255, 255, 0.2);
         margin-bottom: 30px;
         font-size: 65px;
         color: var(--whiteColor);
@@ -24,7 +24,7 @@
         animation: border-transform 10s linear infinite alternate forwards;
         border: {
             width: 2px;
-            style: dashed;
+            // style: dashed;
             color: rgba(255, 255, 255, 0.3);
             radius: 50%;
         };
@@ -104,7 +104,8 @@
         }
     }
     &.bg1 {
-        background-image: url(../../../../assets/img/categories/categories1.jpg);
+        background-color: #c6a62f;
+        // background-image: url(../../../../assets/img/categories/categories1.jpg);
     }
     &.bg2 {
         background-image: url(../../../../assets/img/categories/categories2.jpg);
@@ -116,7 +117,7 @@
         background-image: url(../../../../assets/img/categories/categories4.jpg);
     }
     &.bg5 {
-        background-image: url(../../../../assets/img/categories/categories5.jpg);
+        background-image: url(../../../../assets/img/categories/5.webp);
     }
     &.bg6 {
         background-image: url(../../../../assets/img/categories/categories6.jpg);

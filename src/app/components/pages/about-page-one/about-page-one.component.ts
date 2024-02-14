@@ -11,13 +11,15 @@ import { OurStoryComponent } from '../../common/our-story/our-story.component';
 import { OurMissionComponent } from '../../common/our-mission/our-mission.component';
 import { RouterLink } from '@angular/router';
 import { HeaderStyleOneComponent } from "../../common/header-style-one/header-style-one.component";
+import { OurGrowthComponent } from "../../common/our-growth/our-growth.component";
+import { HeaderStyleFiveComponent } from "../../common/header-style-five/header-style-five.component";
 
 @Component({
     selector: 'app-about-page-one',
     standalone: true,
     templateUrl: './about-page-one.component.html',
     styleUrls: ['./about-page-one.component.scss'],
-    imports: [HeaderStyleTwoComponent, BecomeInstructorPartnerComponent, FeedbackStyleTwoComponent, PartnerStyleOneComponent, InstructorsStyleTwoComponent, OurValuesComponent, FunfactsComponent, OurStoryComponent, OurMissionComponent, RouterLink, HeaderStyleOneComponent]
+    imports: [HeaderStyleTwoComponent, BecomeInstructorPartnerComponent, FeedbackStyleTwoComponent, PartnerStyleOneComponent, InstructorsStyleTwoComponent, OurValuesComponent, FunfactsComponent, OurStoryComponent, OurMissionComponent, RouterLink, HeaderStyleOneComponent, OurGrowthComponent, HeaderStyleFiveComponent]
 })
 export class AboutPageOneComponent implements OnInit {
 

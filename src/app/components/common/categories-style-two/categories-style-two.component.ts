@@ -20,7 +20,7 @@ export class CategoriesStyleTwoComponent implements OnInit {
 		nav: true,
 		dots: false,
 		autoplayHoverPause: true,
-		autoplay: true,
+		autoplay: false,
 		margin: 30,
 		navText: [
 			"<i class='bx bx-left-arrow-alt'></i>",

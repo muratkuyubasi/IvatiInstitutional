@@ -5,13 +5,14 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
 import { NgIf } from '@angular/common';
 import { HeaderStyleOneComponent } from "../../common/header-style-one/header-style-one.component";
+import { HeaderStyleFiveComponent } from "../../common/header-style-five/header-style-five.component";
 
 @Component({
     selector: 'app-contact-page',
     standalone: true,
     templateUrl: './contact-page.component.html',
     styleUrls: ['./contact-page.component.scss'],
-    imports: [HeaderStyleTwoComponent, ReactiveFormsModule, FormsModule, RouterLink, NgIf, HeaderStyleOneComponent]
+    imports: [HeaderStyleTwoComponent, ReactiveFormsModule, FormsModule, RouterLink, NgIf, HeaderStyleOneComponent, HeaderStyleFiveComponent]
 })
 export class ContactPageComponent implements OnInit {
 

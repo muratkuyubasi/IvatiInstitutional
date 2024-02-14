@@ -685,7 +685,7 @@
                         right: 13px;
                     };
                     &:hover, &:focus, &.active {
-                        color: var(--mainColor);
+                        color: #c6a62f;
                     }
                     i {
                         font-size: 17px;
@@ -710,7 +710,7 @@
                 }
                 &:hover, &.active {
                     a {
-                        color: var(--mainColor);
+                        color:#c6a62f;
                     }
                 }
                 .dropdown-menu {
@@ -1945,7 +1945,7 @@
                 flex-direction: unset;
                 background-color: #fafafa;
                 padding: {
-                    top: 18px;
+                    top: 70px;
                     left: 18px;
                     right: 18px;
                     bottom: 18px;

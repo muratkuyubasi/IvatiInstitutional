@@ -13,13 +13,14 @@ import { HomeoneMainBannerComponent } from './homeone-main-banner/homeone-main-b
 import { RouterLink } from '@angular/router';
 import { LanguageCategoryComponent } from "../../common/language-category/language-category.component";
 import { WhyChooseUsComponent } from "../../common/why-choose-us/why-choose-us.component";
+import { OfferComponent } from "../../common/offer/offer.component";
 
 @Component({
     selector: 'app-home-page-one',
     standalone: true,
     templateUrl: './home-page-one.component.html',
     styleUrls: ['./home-page-one.component.scss'],
-    imports: [HeaderStyleOneComponent, BlogComponent, FeedbackStyleOneComponent, BecomeInstructorPartnerComponent, InstructorsStyleOneComponent, PartnerStyleOneComponent, HomeoneCoursesComponent, FunfactsComponent, CategoriesStyleOneComponent, HomeoneAboutComponent, HomeoneMainBannerComponent, RouterLink, LanguageCategoryComponent, WhyChooseUsComponent]
+    imports: [HeaderStyleOneComponent, BlogComponent, FeedbackStyleOneComponent, BecomeInstructorPartnerComponent, InstructorsStyleOneComponent, PartnerStyleOneComponent, HomeoneCoursesComponent, FunfactsComponent, CategoriesStyleOneComponent, HomeoneAboutComponent, HomeoneMainBannerComponent, RouterLink, LanguageCategoryComponent, WhyChooseUsComponent, OfferComponent]
 })
 export class HomePageOneComponent implements OnInit {
 

@@ -39,6 +39,7 @@
 }
 .why-choose-us-image {
     height: 100%;
+    animation: movebounce2 8s linear infinite;
     background: {
         image: url(../../../../assets/img/ortaivati-v2.webp);
         position: center center;

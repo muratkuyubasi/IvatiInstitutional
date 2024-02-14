@@ -4,13 +4,14 @@ import { HeaderStyleTwoComponent } from '../../common/header-style-two/header-st
 import { BecomeInstructorPartnerComponent } from '../../common/become-instructor-partner/become-instructor-partner.component';
 import { RouterLink } from '@angular/router';
 import { HeaderStyleOneComponent } from "../../common/header-style-one/header-style-one.component";
+import { HeaderStyleFiveComponent } from "../../common/header-style-five/header-style-five.component";
 
 @Component({
     selector: 'app-instructors-page-one',
     standalone: true,
     templateUrl: './instructors-page-one.component.html',
     styleUrls: ['./instructors-page-one.component.scss'],
-    imports: [HeaderStyleTwoComponent, BecomeInstructorPartnerComponent, RouterLink, HeaderStyleOneComponent]
+    imports: [HeaderStyleTwoComponent, BecomeInstructorPartnerComponent, RouterLink, HeaderStyleOneComponent, HeaderStyleFiveComponent]
 })
 export class InstructorsPageOneComponent implements OnInit {
 

@@ -65,12 +65,16 @@ import { CoursesGstwcTwoPageComponent } from './components/pages/courses-gstwc-t
 
 export const routes: Routes = [
 
-    {path: '', component: HomePageOneComponent},
+    // {path: '', component: HomePageOneComponent},
+    {path: '', component: HomePageNineComponent},
+
     {path: 'about', component: AboutPageOneComponent},
     {path: 'unser-team', component: InstructorsPageOneComponent},
+    {path: 'our-services', component: CoursesGsocThreePageComponent},
+    {path: 'courses-list', component: CoursesListPageComponent},
+    {path: 'single-courses', component: CoursesDetailsPageComponent},
+
     {path: 'contact', component: ContactPageComponent},
-
-
 
     {path: 'index-2', component: HomePageTwoComponent},
     {path: 'index-3', component: HomePageThreeComponent},
@@ -103,9 +107,7 @@ export const routes: Routes = [
     {path: 'courses-category-style-1', component: CategoryPageOneComponent},
     {path: 'courses-category-style-2', component: CategoryPageTwoComponent},
     {path: 'courses-category-style-3', component: CategoryPageThreeComponent},
-    {path: 'courses-list', component: CoursesListPageComponent},
     {path: 'courses-2-columns-style-1', component: CoursesGsocTwoPageComponent},
-    {path: 'courses-3-columns-style-1', component: CoursesGsocThreePageComponent},
     {path: 'courses-4-columns-style-1', component: CoursesGsocFourPageComponent},
     {path: 'courses-2-columns-style-2', component: CoursesGstwcTwoPageComponent},
     {path: 'courses-3-columns-style-2', component: CoursesGstwcThreePageComponent},
@@ -113,7 +115,6 @@ export const routes: Routes = [
     {path: 'courses-2-columns-style-3', component: CoursesGstcTwoPageComponent},
     {path: 'courses-3-columns-style-3', component: CoursesGstcThreePageComponent},
     {path: 'courses-4-columns-style-3', component: CoursesGstcFourPageComponent},
-    {path: 'single-courses', component: CoursesDetailsPageComponent},
     {path: 'my-dashboard', component: MyDashboardPageComponent},
     {path: 'orders', component: OrdersPageComponent},
     {path: 'downloads', component: DownloadsPageComponent},
